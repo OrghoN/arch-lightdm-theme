@@ -28,7 +28,7 @@ td {
     border-bottom: 2px solid white !important;
 }
 
-#password_entry::focus {
+#password_entry:focus {
     outline: none;
     border: none;
 }
