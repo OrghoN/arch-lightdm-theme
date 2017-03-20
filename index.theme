@@ -1,6 +1,6 @@
 [theme]
-name=CoolThing
-description=a cool theme I made(tm)
-engine=lightdm-webkit-greeter
+name=orghoArchTheme
+description=Minimalistic theme for arch
+engine=lightdm-webkit2-greeter
 url=index.html
 session=gnome

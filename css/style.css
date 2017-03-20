@@ -1,0 +1,42 @@
+body {
+    /*background-image: url('bg.jpg');*/
+    background-size: cover;
+    font-family: monospace;
+    background-color: #111111;
+}
+
+td {
+    font-size: 20px;
+    color: white;
+    verical-align: middle;
+}
+
+#user_table, #password_table {
+    position: absolute;
+    bottom: 10px;
+}
+
+#password_table {
+    right: 10px;
+}
+
+#password_entry {
+    border: none;
+    background: none;
+    box-shadow: none;
+    color: white;
+    border-bottom: 2px solid white !important;
+}
+
+#password_entry::focus {
+    outline: none;
+    border: none;
+}
+
+:focus {
+    outline: none;
+}
+
+::-moz-focus-inner {
+    border: 0;
+}
